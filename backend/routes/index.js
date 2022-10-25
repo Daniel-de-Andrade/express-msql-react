@@ -1,10 +1,8 @@
-const express = require('express'),
-    routes = express.Router(),
-    niveis = require('./niveis');
+const express = require("express"),
+  routes = express.Router(),
+  niveis = require("./niveis");
 
-//* localhost:5000/niveis
-routes.use('/niveis', niveis)
+// localhost:5000/niveis
+routes.use("/niveis", niveis);
 
-
-
-module.exports =routes
+module.exports = routes;
